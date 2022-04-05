@@ -5,9 +5,6 @@
   "engines": {
     "node": "16.13.1"
   },
-  "browser": {
-    "[module-name]": false   
-  },
   "main": "server.js",
   "scripts": {
     "webpack": "webpack --watch",
@@ -36,4 +33,3 @@
     "webpack-dev-server": "^4.7.4"
   }
 }
-
