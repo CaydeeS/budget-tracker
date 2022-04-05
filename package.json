@@ -2,34 +2,29 @@
   "name": "budget-app",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "16.13.1"
-  },
   "main": "server.js",
   "scripts": {
-    "webpack": "webpack --watch",
-    "build": "webpack",
-    "start:dev": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/CaydeeS/budget-tracker.git"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/CaydeeS/budget-tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/CaydeeS/budget-tracker#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
   }
 }
